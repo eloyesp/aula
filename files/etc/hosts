@@ -1,0 +1,36 @@
+::1	localhost.localdomain	localhost
+192.168.1.4     servidor.ai-bhm.unl.edu.ar   s4      puppet  server                
+192.168.1.10	pc10.ai-bhm.unl.edu.ar	pc10	al10
+192.168.1.11	pc11.ai-bhm.unl.edu.ar	pc11	al11
+192.168.1.12	pc12.ai-bhm.unl.edu.ar	pc12	al12
+192.168.1.13	pc13.ai-bhm.unl.edu.ar	pc13	al13
+192.168.1.14	pc14.ai-bhm.unl.edu.ar	pc14	al14
+192.168.1.15	pc15.ai-bhm.unl.edu.ar	pc15	al15
+192.168.1.16	pc16.ai-bhm.unl.edu.ar	pc16	al16
+192.168.1.17	pc17.ai-bhm.unl.edu.ar	pc17	al17
+192.168.1.18	pc18.ai-bhm.unl.edu.ar	pc18	al18
+192.168.1.19	pc19.ai-bhm.unl.edu.ar	pc19	al19
+192.168.1.20	pc20.ai-bhm.unl.edu.ar	pc20	al20
+192.168.1.21	pc21.ai-bhm.unl.edu.ar	pc21	al21
+192.168.1.22	pc22.ai-bhm.unl.edu.ar	pc22	al22
+192.168.1.23	pc23.ai-bhm.unl.edu.ar	pc23	al23
+192.168.1.24	pc24.ai-bhm.unl.edu.ar	pc24	al24
+192.168.1.25	pc25.ai-bhm.unl.edu.ar	pc25	al25
+192.168.1.26	pc26.ai-bhm.unl.edu.ar	pc26	al26
+192.168.1.27	pc27.ai-bhm.unl.edu.ar	pc27	al27
+192.168.1.28	pc28.ai-bhm.unl.edu.ar	pc28	al28
+192.168.1.29	pc29.ai-bhm.unl.edu.ar	pc29	al29
+192.168.1.30	pc30.ai-bhm.unl.edu.ar	pc30	al30
+192.168.1.31	pc31.ai-bhm.unl.edu.ar	pc31	al31
+192.168.1.32	pc32.ai-bhm.unl.edu.ar	pc32	al32
+192.168.1.33	pc33.ai-bhm.unl.edu.ar	pc33	al33
+192.168.1.34	pc34.ai-bhm.unl.edu.ar	pc34	al34
+192.168.1.35	pc35.ai-bhm.unl.edu.ar	pc35	al35
+192.168.1.36	pc36.ai-bhm.unl.edu.ar	pc36	al36
+192.168.1.37	pc37.ai-bhm.unl.edu.ar	pc37	al37
+192.168.1.38	pc38.ai-bhm.unl.edu.ar	pc38	al38
+192.168.1.39	pc39.ai-bhm.unl.edu.ar	pc39	al39
+192.168.1.40	pc40.ai-bhm.unl.edu.ar	pc40    profesor
+192.168.1.101	deathstar		deathstar
+168.96.132.33	entornovirtual.unl.edu.ar	entornovirtual
+
