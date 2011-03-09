@@ -1,35 +1,35 @@
 # README
 
-# OrganizaciÛn del aula de inform·tica
+# Organizaci√≥n del aula de inform√°tica
 
 ## Server
 
-El aula de inform·tica (ai-bhm.unl.edu.ar) tiene un server en el cual corren los
+El aula de inform√°tica (ai-bhm.unl.edu.ar) tiene un server en el cual corren los
 siguientes servicios:
 
-- dhcpd: (DHCP) le indica a las pcs cual es la ip que les corresponde seg˙n
-  su MAC (direcciÛn ˙nica dada por su placa de red) e indica cual es
+- dhcpd: (DHCP) le indica a las pcs cual es la ip que les corresponde seg√∫n
+  su MAC (direcci√≥n √∫nica dada por su placa de red) e indica cual es
   el archivo que se debe cargar para el PXE (booteo por red)
-- tftpd: ftp para el booteo local, la configuraciÛn est· en el
+- tftpd: ftp para el booteo local, la configuraci√≥n est√° en el
   directorio `/tftp`
 - httpd: (apache web server) sirve para servir los repositorios
   locales.
 - named: (bind DNS server) relaciona internamente los nombres de las
   pcs con las ips, de forma que escribir pc10 signifique lo mismo que
-  192.168.1.10 asÌ como pc4 = server = puppet = 192.168.1.4
+  192.168.1.10 as√≠ como pc4 = server = puppet = 192.168.1.4
 - puppetmasterd: servidor de configuraciones. Permite centralizar la
-  configuraciÛn de las distintas pcs. La configuraciÛn se organiza en
+  configuraci√≥n de las distintas pcs. La configuraci√≥n se organiza en
   manifiestos los cuales se encuentran en `/etc/puppet`
 
 ## Nombres
 
 - nombre de dominio: toda el aula se encuentra en el dominio
   (inventado) `ai-bhm.unl.edu.ar`
-- Las pcs de usuario se llaman `pc##` dÛnde `##` es un n˙mero entre 10 y
+- Las pcs de usuario se llaman `pc##` d√≥nde `##` es un n√∫mero entre 10 y
   39 dependiendo del lugar en la sala. Como alias pueden tener `al##`.
 - La pc del profesor es `pc40` o (como alias) `profesor`.
 - El servidor se llama `servidor` y como alias `s4`, `puppet` y `server`.
-- Estos nombres ser·n accesibles desde el DNS en el servidor, los
+- Estos nombres ser√°n accesibles desde el DNS en el servidor, los
   mirror (slave) en `pc10` y `pc19`.
 - Estos estaran copiados en los archivos `hosts` en `/etc/` cuyo modelo
   esta en el directorio `resources/hosts` y es accesible desde la red en
@@ -45,11 +45,12 @@ sincroniza con el repositorio de fedora mediante el script en
 `lib/mirror_sync.rb` mediante rsync. Se utilizan *excludes* en el archivo
 `resources/excludes`
 
-Por otro lado se crea un mirror local con paquetes especÌficos en:
+Por otro lado se crea un mirror local con paquetes espec√≠ficos en:
 `/releases/14/Local/i386/os` el cual se construye mediante el script
 `lib/local_repo.rb` que toma los rpm descargados por las pcs `pc10` y
 `pc15` de 32 y 64 bits respectivamente (en estas y solo en estas
-computadoras est·n habilitados los mirrors remotos).
+computadoras est√°n habilitados los mirrors remotos).
 
 Los repositorios locales se encuentran configurados en el directorio
 `/etc/yum.repos/local.repo` que esta configurado mediante puppet.
+
