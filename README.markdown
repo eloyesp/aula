@@ -32,7 +32,7 @@ siguientes servicios:
 - Estos nombres serán accesibles desde el DNS en el servidor, los
   mirror (slave) en `pc10` y `pc19`.
 - Estos estaran copiados en los archivos `hosts` en `/etc/` cuyo modelo
-  esta en el directorio `resources/hosts` y es accesible desde la red en
+  esta en el directorio `files/etc/hosts` y es accesible desde la red en
   `http://servidor/mirror/resources/files/hosts`
 
 ## Repos
