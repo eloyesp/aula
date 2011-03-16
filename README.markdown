@@ -1,5 +1,3 @@
-# README
-
 # Organización del aula de informática
 
 ## Server

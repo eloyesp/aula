@@ -1,6 +1,11 @@
 import 'usuarios'
 import 'yumrepo'
 
+# Configuración del aula
+
+$nameservers = ['192.168.1.4', 'pc19', '168.96.132.2']
+
+
 class grupos {
 	group { 'user':
         gid => '600'
@@ -164,13 +169,17 @@ class usuarios_del_aula {
 }
 
 node 'pc19.multiconv.intranet.unl' {
-	include grupos
-    include usuarios_del_aula
-    $remotes = '1'
-    include repos
+  include grupos
+  include usuarios_del_aula
+  $remotes = '1'
+  include repos
 }
 
 node 'ai-bhm16.unl.edu.ar' {
-	include grupos
+  include grupos
 }
 
+node default {
+  include grupos,
+  include usuarios_del_aula,
+} 
