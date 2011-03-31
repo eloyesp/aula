@@ -1,3 +1,6 @@
 [submodule "puppet/modules/gconf"]
 	path = puppet/modules/gconf
 	url = git://gitorious.org/puppet-gconf/puppet-gconf.git
+[submodule "puppet/modules/nfs"]
+	path = puppet/modules/nfs
+	url = git://github.com/camptocamp/puppet-nfs.git
