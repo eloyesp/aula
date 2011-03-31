@@ -1,0 +1,3 @@
+[submodule "puppet/modules/gconf"]
+	path = puppet/modules/gconf
+	url = git://gitorious.org/puppet-gconf/puppet-gconf.git
