@@ -4,3 +4,15 @@
 [submodule "puppet/modules/nfs"]
 	path = puppet/modules/nfs
 	url = git://github.com/camptocamp/puppet-nfs.git
+[submodule "puppet/modules/cobbler"]
+	path = puppet/modules/cobbler
+	url = git://github.com/ghoneycutt/puppet-cobbler.git
+[submodule "puppet/modules/apache"]
+	path = puppet/modules/apache
+	url = git://github.com/ghoneycutt/puppet-apache.git
+[submodule "puppet/modules/dhcp"]
+	path = puppet/modules/dhcp
+	url = git://github.com/ghoneycutt/puppet-dhcp.git
+[submodule "puppet/modules/puppet"]
+	path = puppet/modules/puppet
+	url = git://github.com/ghoneycutt/puppet-puppet.git
